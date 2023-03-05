@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/learn_together/static/css/main.a187b753.css",
+    "main.css": "/learn_together/static/css/main.f8b6532a.css",
     "main.js": "/learn_together/static/js/main.6b5c7dfb.js",
     "static/js/787.42edc0ed.chunk.js": "/learn_together/static/js/787.42edc0ed.chunk.js",
     "static/media/avatarBig.png": "/learn_together/static/media/avatarBig.5974632cbf5d7edfaf82.png",
@@ -26,12 +26,12 @@
     "static/media/eye.svg": "/learn_together/static/media/eye.1348276d9deebf9199ef47e5a381515c.svg",
     "static/media/arrowDownUp.svg": "/learn_together/static/media/arrowDownUp.1a6f92cc90c42fb40829bd2c5add085b.svg",
     "static/media/arrow.svg": "/learn_together/static/media/arrow.9c43ee4473c188dca31578cbfa023bb9.svg",
-    "main.a187b753.css.map": "/learn_together/static/css/main.a187b753.css.map",
+    "main.f8b6532a.css.map": "/learn_together/static/css/main.f8b6532a.css.map",
     "main.6b5c7dfb.js.map": "/learn_together/static/js/main.6b5c7dfb.js.map",
     "787.42edc0ed.chunk.js.map": "/learn_together/static/js/787.42edc0ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a187b753.css",
+    "static/css/main.f8b6532a.css",
     "static/js/main.6b5c7dfb.js"
   ]
 }

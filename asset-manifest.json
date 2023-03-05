@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/learn_together/static/css/main.a844571e.css",
-    "main.js": "/learn_together/static/js/main.b51cde7a.js",
+    "main.css": "/learn_together/static/css/main.a187b753.css",
+    "main.js": "/learn_together/static/js/main.6b5c7dfb.js",
     "static/js/787.42edc0ed.chunk.js": "/learn_together/static/js/787.42edc0ed.chunk.js",
     "static/media/avatarBig.png": "/learn_together/static/media/avatarBig.5974632cbf5d7edfaf82.png",
+    "static/media/defaultPackCover.png": "/learn_together/static/media/defaultPackCover.ae3b1b2b27cbc747f700.png",
     "static/media/star.png": "/learn_together/static/media/star.190d870d386afd29523a.png",
     "static/media/logo.png": "/learn_together/static/media/logo.baaa255bcb20c82eb32e.png",
     "static/media/starFull.png": "/learn_together/static/media/starFull.d0cbd94e0a4a62fc2bf4.png",
     "static/media/emptyPack.png": "/learn_together/static/media/emptyPack.e02a877fd69d7c8e984e.png",
-    "static/media/defaultPackCover.png": "/learn_together/static/media/defaultPackCover.ccd485605c656341ff4d.png",
     "static/media/filterRemove.svg": "/learn_together/static/media/filterRemove.f97cd0557cab973dc722a93f63215ef0.svg",
     "static/media/Delete.svg": "/learn_together/static/media/Delete.b5aaa8a2dd55eb26b00e480a05fc7ec6.svg",
     "static/media/eye-close.svg": "/learn_together/static/media/eye-close.27cbb7284ab275283eb5b100055ab46e.svg",
@@ -26,12 +26,12 @@
     "static/media/eye.svg": "/learn_together/static/media/eye.1348276d9deebf9199ef47e5a381515c.svg",
     "static/media/arrowDownUp.svg": "/learn_together/static/media/arrowDownUp.1a6f92cc90c42fb40829bd2c5add085b.svg",
     "static/media/arrow.svg": "/learn_together/static/media/arrow.9c43ee4473c188dca31578cbfa023bb9.svg",
-    "main.a844571e.css.map": "/learn_together/static/css/main.a844571e.css.map",
-    "main.b51cde7a.js.map": "/learn_together/static/js/main.b51cde7a.js.map",
+    "main.a187b753.css.map": "/learn_together/static/css/main.a187b753.css.map",
+    "main.6b5c7dfb.js.map": "/learn_together/static/js/main.6b5c7dfb.js.map",
     "787.42edc0ed.chunk.js.map": "/learn_together/static/js/787.42edc0ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a844571e.css",
-    "static/js/main.b51cde7a.js"
+    "static/css/main.a187b753.css",
+    "static/js/main.6b5c7dfb.js"
   ]
 }

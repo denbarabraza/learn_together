@@ -48,7 +48,7 @@ export const Tbody: React.FC<TbodyType> = memo(({ packs }) => {
         }
 
         const teachPack = () => {
-          dispatch(fetchCardTC(t._id)).then(() => navigate(PATH.CARD_LEARN))
+          dispatch(fetchCardTC(t._id)).then(() => navigate(`${PATH.CARD_LEARN}/${t._id}`))
         }
 
         let resClass = t.cardsCount === 0 ? '#908c8c' : ''

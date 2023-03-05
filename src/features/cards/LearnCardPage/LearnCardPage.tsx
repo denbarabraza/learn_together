@@ -18,7 +18,7 @@ export const LearnCardPage = memo(() => {
   const [isChecked, setIsChecked] = useState<boolean>(false)
   const [grade, setGrade] = useState<number>(0)
   const [first, setFirst] = useState<boolean>(false)
-  let { id } = useParams<{ id: string }>()
+  let { learnID } = useParams<{ learnID: string }>()
 
   const packName = useAppSelector(packNameCardSelector)
   const cards = useAppSelector(cardSelector)
@@ -28,16 +28,16 @@ export const LearnCardPage = memo(() => {
   const [card, setCard] = useState<CardType>(cards[0])
 
   useEffect(() => {
-    if (!id) return
+    if (!learnID) return
     if (first) {
-      dispatch(fetchCardTC(id))
+      dispatch(fetchCardTC(learnID))
       setFirst(false)
     }
 
     if (cards.length > 0) setCard(getCard(cards))
 
     return () => {}
-  }, [id, cards, first, grade])
+  }, [learnID, cards, first, grade])
 
   const onChangeChecked = useCallback((isActive: AnswerStatuses, grade: number) => {
     setGrade(grade)

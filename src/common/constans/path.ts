@@ -9,5 +9,6 @@ export const PATH = {
   CARD_LIST: '/cards-list',
   CARD_LIST_ID: '/cards-list/:id',
   CARD_LEARN: '/learn',
+  CARD_LEARN_ID: '/learn/:learnID',
   CURRENT_URL: window.location.href.split('#')[0],
 } as const

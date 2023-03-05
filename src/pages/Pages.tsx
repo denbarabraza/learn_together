@@ -32,7 +32,7 @@ const Pages = () => {
         <Route path={PATH.CARD_LIST} element={<CardList />} />
         <Route path={PATH.CARD_LIST_ID} element={<CardList />} />
         <Route path={PATH.ACCOUNT} element={<UserAccount />} />
-        <Route path={PATH.CARD_LEARN} element={<LearnCardPage />} />
+        <Route path={PATH.CARD_LEARN_ID} element={<LearnCardPage />} />
       </Route>
     </Routes>
   )

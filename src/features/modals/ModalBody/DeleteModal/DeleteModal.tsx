@@ -29,7 +29,6 @@ const DeleteModal: FC<DeleteModalType> = memo(({ type }) => {
       dispatch(deletePackTC(deletedPack._id)).then(() => navigate(PATH.PACK_LIST))
     }
     if (deletedCard._id) {
-      debugger
       dispatch(setIsPackDeleted(true))
       dispatch(deleteCardTC(deletedCard._id))
     }

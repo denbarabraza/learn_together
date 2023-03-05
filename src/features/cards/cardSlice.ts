@@ -109,8 +109,10 @@ export const updatedGradeTC = createAsyncThunk(
         setGradeInCard({
           grade: res.data.updatedGrade.grade,
           cardID: res.data.updatedGrade.card_id,
+          shots: res.data.updatedGrade.shots,
         })
       )
+
       dispatch(setAppStatus('success'))
     } catch (e: any) {
       errorUtils(e, dispatch)
@@ -138,11 +140,15 @@ const cardSlice = createSlice({
     setSearchCardParams: (state, action: PayloadAction<CardQueryParamsType>) => {
       state.searchParams = { ...state.searchParams, ...action.payload }
     },
-    setGradeInCard: (state, action: PayloadAction<{ grade: number; cardID: string }>) => {
+    setGradeInCard: (
+      state,
+      action: PayloadAction<{ grade: number; cardID: string; shots: number }>
+    ) => {
       const cardIndex = state.cards.findIndex(e => e._id === action.payload.cardID)
 
       if (cardIndex !== -1) {
         state.cards[cardIndex].grade = action.payload.grade
+        state.cards[cardIndex].shots = action.payload.shots
       }
     },
   },

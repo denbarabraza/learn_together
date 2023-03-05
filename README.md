@@ -12,11 +12,9 @@ Happy studying!
 
 ## Developers
 
-#### [Sergey Saprankov ](https://t.me/sergeysaprankov)
-
 #### [Denis Bareischev](https://t.me/denbarabraza)
-
 #### [Egor Karpuk](https://t.me/Pikadorius)
+#### [Sergey Saprankov ](https://t.me/sergeysaprankov)
 
 ## Production
 

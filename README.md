@@ -18,5 +18,5 @@ Happy studying!
 
 ## Production
 
-### [Production link ](https://pikadorius.github.io/project_cards/)
+### [Production link ](https://denbarabraza.github.io/learn_together)
 

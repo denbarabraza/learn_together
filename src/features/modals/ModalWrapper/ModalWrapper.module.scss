@@ -1,0 +1,41 @@
+.container {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.5s;
+
+  .wrapper {
+    width: 395px;
+    background: #FFFFFF;
+    border-radius: 1em;
+    transform: scale(0);
+    transition: 0.5s;
+
+    .modalHeader {
+      height: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 10px 0 24px;
+      z-index: 30;
+
+      .title {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.activeWrapper {
+  transform: scale(1)!important;
+}
+

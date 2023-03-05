@@ -1,0 +1,40 @@
+.radio {
+  display: inline-block;
+
+  width: 20px;
+  height: 20px;
+  margin-right: 13px;
+  padding: 0;
+
+  accent-color: black;
+}
+
+.radio::before {
+}
+
+.radio:checked::before {
+  content: '';
+}
+
+.label {
+  display: flex;
+  justify-items: center;
+
+  width: 125px;
+  height: 20px;
+  margin-bottom: 21px;
+  margin-left: 125px;
+  padding: 0;
+}
+
+.spanRadio {
+  display: inline-block;
+
+  height: 20px;
+  margin-left: 13px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,27 @@
+@import '../../styles/mixins';
+
+.container {
+  @include sort;
+
+  .sort {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      transform: translateY(2px);
+    }
+
+    .sortIcon {
+      width: 22px;
+      height: 22px;
+
+    }
+  }
+}

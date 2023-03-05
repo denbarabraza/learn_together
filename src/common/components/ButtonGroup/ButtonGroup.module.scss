@@ -1,0 +1,26 @@
+@import '../../styles/mixins';
+
+.container {
+  @include sort;
+
+  .buttonGroupe {
+    display: flex;
+    gap: 3px;
+
+    .btn {
+      border-radius: 1em;
+      border: 1px solid #212121;
+      padding: 10px 35px;
+      color: #000;
+      background: #fff;
+      @include btn;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .active {
+      background: #212121;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+@import '../../styles/mixins';
+
+@include input;
+
+.labelInput {
+  padding-bottom: 7px;
+}

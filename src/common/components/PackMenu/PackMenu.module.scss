@@ -1,0 +1,23 @@
+.menuTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  .title {
+    max-width: 80vw;
+    word-break: break-word;
+  }
+
+  .dots {
+    width: 18px;
+    height: 18px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.icon {
+  padding-right: 10px;
+}

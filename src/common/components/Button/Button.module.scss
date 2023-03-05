@@ -1,0 +1,19 @@
+@import '../../styles/mixins';
+
+.btn {
+  @include btn;
+
+  cursor: pointer;
+
+  padding: 8px 0;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #ffffff;
+
+  background: #212121;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 18px rgba(71, 75, 87, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}

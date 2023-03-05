@@ -1,0 +1,7 @@
+.cursor {
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(1px);
+  }
+}

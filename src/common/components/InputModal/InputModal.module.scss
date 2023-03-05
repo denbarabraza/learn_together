@@ -1,0 +1,17 @@
+@import '../../styles/mixins';
+
+@include input;
+
+.delIcon {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 65%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+
+  &:hover{
+    opacity: 0.7;
+  }
+}

@@ -1,0 +1,55 @@
+.gradesItem {
+
+
+  .grades {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .gradesBlock {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+
+    .inputItem {
+      position: relative;
+
+      .starItem {
+        transition: all .2s ease-in-out;
+
+        &:hover .overlay {
+          display: block;
+        }
+
+        .overlay {
+          display: none;
+          position: absolute;
+          bottom: -10px;
+          left: 50%;
+          transform: translateX(-50%);
+          min-width: max-content;
+          font-size: 12px;
+          margin-bottom: 5px;
+        }
+      }
+
+      .star {
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+      }
+
+      .customCheckbox {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+      }
+    }
+  }
+}
+
+

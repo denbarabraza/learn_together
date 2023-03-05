@@ -1,0 +1,55 @@
+@import '../../../styles/mixins';
+
+.header {
+  height: calc(100% / 11);
+  background: #212121;
+  color: #fff;
+
+  .tr {
+    @include tr;
+
+    &:last-child {
+      cursor: inherit;
+    }
+
+    .th {
+      padding-left: 36px;
+      text-align: start;
+      width: calc((100vw - 35vw) / 4);
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+
+      &:first-child {
+        width: 35vw;
+      }
+
+      .titleContainer {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+
+        .sortText {
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 17px;
+        }
+
+        .iconSort {
+          width: 20px;
+          height: 20px;
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            opacity: .7;
+          }
+        }
+
+        .rotate {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+}

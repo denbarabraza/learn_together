@@ -1,0 +1,58 @@
+@import '../../../styles/mixins';
+
+.tr {
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(190, 186, 186, 0.13);
+  word-wrap: break-word;
+  &:hover {
+    opacity: 0.8;
+    transition: all .2s ease-in-out;
+  }
+
+  .td {
+    padding-left: 36px;
+    width: calc((100vw - 70vw) / 2);
+    word-break: break-word;
+    border-bottom: 1px solid rgba(210, 210, 210, 0.9);
+    .img {
+      height: 10vh;
+      width: 15vh;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+
+    &:first-child {
+      width: 40vw;
+      word-break: break-word;
+    }
+
+    &:nth-child(2) {
+      width: 40vw;
+      word-break: break-word;
+    }
+
+    .gradeColumn {
+      display: flex;
+      align-items: center;
+      gap: 35px;
+
+      .iconContainer {
+        display: flex;
+        gap: 10px;
+
+        .icon {
+          width: 16px;
+          height: 16px;
+          cursor: pointer;
+
+          &:hover {
+            transform: translateY(1px);
+          }
+        }
+      }
+    }
+  }
+}

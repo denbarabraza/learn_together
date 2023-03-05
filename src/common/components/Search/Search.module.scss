@@ -1,0 +1,49 @@
+@import '../../styles/mixins';
+
+.container {
+  min-width: 25vw;
+  margin-right: 6%;
+  @include sort;
+  align-items: flex-start;
+
+  .inputContainer {
+    width: 100%;
+    position: relative;
+
+    .search {
+      min-width: 100%;
+      padding: 10px 15px 10px 40px;
+      border-radius: 15px;
+      background-color: #fff;
+      border: 1px solid #212121;
+      transition: all 0.2s ease 0s;
+      font-size: 16px;
+      outline: none;
+      color: #000;
+
+      &:focus {
+        border: 1px solid #212121;
+      }
+    }
+
+    .searchIcon {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 50%;
+      left: 7px;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+
+    .delIcon {
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+  }
+}

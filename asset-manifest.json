@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/learn_together/static/css/main.2ad19885.css",
-    "main.js": "/learn_together/static/js/main.6b5c7dfb.js",
+    "main.css": "/learn_together/static/css/main.172cf3d2.css",
+    "main.js": "/learn_together/static/js/main.55b09ce5.js",
     "static/js/787.42edc0ed.chunk.js": "/learn_together/static/js/787.42edc0ed.chunk.js",
-    "static/media/avatarBig.png": "/learn_together/static/media/avatarBig.5974632cbf5d7edfaf82.png",
     "static/media/defaultPackCover.png": "/learn_together/static/media/defaultPackCover.ae3b1b2b27cbc747f700.png",
+    "static/media/ava.png": "/learn_together/static/media/ava.4251338284ab297bb729.png",
     "static/media/star.png": "/learn_together/static/media/star.190d870d386afd29523a.png",
     "static/media/logo.png": "/learn_together/static/media/logo.baaa255bcb20c82eb32e.png",
     "static/media/starFull.png": "/learn_together/static/media/starFull.d0cbd94e0a4a62fc2bf4.png",
@@ -26,12 +26,12 @@
     "static/media/eye.svg": "/learn_together/static/media/eye.1348276d9deebf9199ef47e5a381515c.svg",
     "static/media/arrowDownUp.svg": "/learn_together/static/media/arrowDownUp.1a6f92cc90c42fb40829bd2c5add085b.svg",
     "static/media/arrow.svg": "/learn_together/static/media/arrow.9c43ee4473c188dca31578cbfa023bb9.svg",
-    "main.2ad19885.css.map": "/learn_together/static/css/main.2ad19885.css.map",
-    "main.6b5c7dfb.js.map": "/learn_together/static/js/main.6b5c7dfb.js.map",
+    "main.172cf3d2.css.map": "/learn_together/static/css/main.172cf3d2.css.map",
+    "main.55b09ce5.js.map": "/learn_together/static/js/main.55b09ce5.js.map",
     "787.42edc0ed.chunk.js.map": "/learn_together/static/js/787.42edc0ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ad19885.css",
-    "static/js/main.6b5c7dfb.js"
+    "static/css/main.172cf3d2.css",
+    "static/js/main.55b09ce5.js"
   ]
 }

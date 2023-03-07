@@ -15,7 +15,7 @@ const AvatarLoader = () => {
     if (e.target.files && e.target.files.length) {
       const file = e.target.files[0]
 
-      if (file.size < 4000000) {
+      if (file.size < 120000) {
         convertFileToBase64(file, (file64: string) => {
           dispatch(updateAvatarTC(file64))
         })

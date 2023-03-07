@@ -52,6 +52,16 @@
 
         border-radius: 50%;
 
+        .imgAva {
+          min-width: 96px;
+          max-width: 96px;
+          min-height: 96px;
+          max-height: 96px;
+          background-size: contain;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+
         .decoration {
           @include flexCenter;
 

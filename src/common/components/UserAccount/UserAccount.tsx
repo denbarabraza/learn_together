@@ -7,7 +7,7 @@ import EditableSpan from '../EditableSpan/EditableSpan'
 import s from './UserAccount.module.scss'
 
 import arrow from 'assets/arrow.svg'
-import avatar from 'assets/avatarBig.png'
+import avatar from 'assets/ava.png'
 import logout from 'assets/logout.svg'
 import AvatarLoader from 'common/components/AvatarLoader/AvatarLoader'
 import { PATH } from 'common/constans/path'
@@ -49,7 +49,7 @@ export const UserAccount = () => {
             <div className={s.decoration}>
               <AvatarLoader />
             </div>
-            <img src={userAvatar} alt="user avatar" style={{ width: '96px', height: '96px' }} />
+            <div className={s.imgAva} style={{ backgroundImage: `url(${userAvatar})` }} />
           </div>
 
           <EditableSpan value={userName} />

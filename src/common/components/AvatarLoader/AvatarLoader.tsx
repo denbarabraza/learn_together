@@ -10,11 +10,12 @@ import { updateAvatarTC } from 'features/auth/authSlice'
 
 const AvatarLoader = () => {
   const dispatch = useAppDispatch()
+
   const uploadHandler = (e: ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length) {
       const file = e.target.files[0]
 
-      if (file.size < 400000) {
+      if (file.size < 4000000) {
         convertFileToBase64(file, (file64: string) => {
           dispatch(updateAvatarTC(file64))
         })

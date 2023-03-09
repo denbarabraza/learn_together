@@ -55,7 +55,7 @@ export const CardHeader: FC<CardHeaderType> = memo(({ onClick }) => {
       ) : (
         <div className={s.btnBlock}>
           <button
-            onClick={() => navigate(PATH.CARD_LEARN_ID)}
+            onClick={() => navigate(`${PATH.CARD_LEARN}/${id}`)}
             className={s.btn}
             disabled={cards.length === 0}
           >

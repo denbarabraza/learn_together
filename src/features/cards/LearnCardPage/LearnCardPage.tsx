@@ -37,7 +37,7 @@ export const LearnCardPage = memo(() => {
     if (cards.length > 0) setCard(getCard(cards))
 
     return () => {}
-  }, [learnID, cards, first, grade])
+  }, [learnID, cards, first])
 
   const onChangeChecked = useCallback((isActive: AnswerStatuses, grade: number) => {
     setGrade(grade)
